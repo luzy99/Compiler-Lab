@@ -1,0 +1,6 @@
+id num ( ) + - * /
+E T F
+E->E + T | E - T | T
+T->T * F | T / F | F
+F->id | ( E ) | num
+end

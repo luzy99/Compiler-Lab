@@ -1,0 +1,7 @@
+report.assets
+*/.vs
+*.pdb
+*.ilk
+*.tlog
+*.obj
+*.log
