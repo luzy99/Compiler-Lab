@@ -1,0 +1,11 @@
+i + * ( )
+S E T F
+S->E
+E->E + T
+E->T
+T->T * F
+T->F
+F->( E )
+F->i
+end
+i * i + i

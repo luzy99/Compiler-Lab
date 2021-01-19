@@ -1,0 +1,8 @@
+id num ; record { } [ ] int float
+S D T B C
+S->D
+D->T id ; D | @
+T->B C | record { D }
+B->int | float
+C-> @ | [ num ] C
+end
